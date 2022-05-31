@@ -12,4 +12,6 @@ RUN npm install --no-optional && npm cache clean --force
 
 COPY . .
 
+RUN npm run test
+
 CMD ["node", "index.js"]
