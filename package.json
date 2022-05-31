@@ -24,5 +24,9 @@
   "homepage": "https://github.com/eXpire163/response-coder#readme",
   "dependencies": {
     "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "jest": "^28.1.0",
+    "supertest": "^6.2.3"
   }
 }
