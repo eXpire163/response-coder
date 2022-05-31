@@ -18,3 +18,9 @@ Server runs on **port 8181** if you need a different one, change it in the `inde
 `/timeout/:duration` for a response after defined milliseconds
 
 > `/timeout/3000` will answer with a 200 after 3 seconds
+
+## use docker image
+
+Start `docker run -d -p 8181:8181 --name response-coder  expire163/response-coder:latest` \
+Stop `docker rm -f response-coder` \
+Cleanup `docker rmi expire163/response-coder:latest`
