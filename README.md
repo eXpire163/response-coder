@@ -4,6 +4,8 @@ simple express server that can be used to test your code against http status cod
 
 ## usage
 
+Server runs on **port 8181** if you need a different one, change it in the `index.js` and `Dockerfile`
+
 `/statuscode/:code` to get the status code you want
 
 > `/statuscode/200` for a nice 200
