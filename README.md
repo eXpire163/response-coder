@@ -1,6 +1,11 @@
 # response-coder
 
-simple express server that can be used to test your code against http status codes
+simple express server that can be used to test your code against **http status codes**
+
+## where to find:
+
+@ github: https://github.com/eXpire163/response-coder \
+@ docker.hub: https://hub.docker.com/r/expire163/response-coder
 
 ## usage
 
