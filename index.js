@@ -12,7 +12,7 @@ app.get('/statuscode/:code', (req, res) => {
     const {
         code
     } = req.params
-    res.status(code).end()
+    res.status(code).send("You ask for the status code: " + code)
 });
 
 app.get('/timeout/:duration', async (req, res) => {
