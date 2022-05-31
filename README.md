@@ -1,5 +1,7 @@
 # response-coder
 
+[![Docker Image CI](https://github.com/eXpire163/response-coder/actions/workflows/docker-image.yml/badge.svg?branch=main)](https://github.com/eXpire163/response-coder/actions/workflows/docker-image.yml)
+
 simple express server that can be used to test your code against **http status codes**
 
 ## where to find:
